@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Conversión de Monedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Conversor de Monedas</h1>
+        <form id="converter-form">
+            <input type="number" id="amount" placeholder="Cantidad" required>
+            <select id="from-currency"></select>
+            <select id="to-currency"></select>
+            <button type="submit">Convertir</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script type="module" src="js/controller.js"></script>
+</body>
+
+</html>
